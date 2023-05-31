@@ -1,8 +1,8 @@
 import React from 'react'
-import Header from './components/Header'
-import Footer from './components/Footer'
-import Conten from './components/Conten'
-import Aside from './components/Aside'
+import Header from './components/add/Header.js'
+import Aside from './components/add/Aside.js'
+import Register from './screen/Register.js'
+import Footer from './components/add/Footer.js'
 
 
 export default function App() {
@@ -10,7 +10,7 @@ export default function App() {
     <div>
       <Header/>
       <Aside/>
-      <Conten/>
+      <Register/>
       <Footer/>
     </div>
   )

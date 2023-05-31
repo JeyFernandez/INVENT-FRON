@@ -11,7 +11,7 @@ export default function Aside() {
           className="brand-image img-circle elevation-3"
           style={{ opacity: ".8" }}
         />
-        <span className="brand-text font-weight-light">InventMED</span>
+        <span className="brand-text font-weight-light">MAS</span>
       </a>
       {/* Sidebar */}
       <div className="sidebar">
@@ -19,7 +19,7 @@ export default function Aside() {
         <div className="user-panel mt-3 pb-3 mb-3 d-flex">
           <div className="image">
             <img
-              src="dist/img/user2-160x160.jpg"
+              src="dist/img/jey.jpg"
               className="img-circle elevation-2"
               alt="User Image"
             />
@@ -56,23 +56,35 @@ export default function Aside() {
           >
             {/* Add icons to the links using the .nav-icon class
          with font-awesome or any other icon font library */}
-            <li className="nav-item menu-open">
-              <a href="#" className="nav-link active">
-                <i className="nav-icon fas fa-tachometer-alt" />
-                <p>
-                  Dashboard
-                  <i className="right fas fa-angle-left" />
-                </p>
-              </a>
-              <ul className="nav nav-treeview">
-                <li className="nav-item">
-                  <a href="./index3.html" className="nav-link active">
-                    <i className="far fa-circle nav-icon" />
-                    <p>Register</p>
-                  </a>
-                </li>
-              </ul>
-            </li>
+          <li class="nav-item menu-open">
+            <a href="#" class="nav-link active">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                Dashboard
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Dashboard v1</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="./index2.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Dashboard v2</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="./screen/Screen3.js" class="nav-link active">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Dashboard v3</p>
+                </a>
+              </li>
+            </ul>
+          </li>
             <li className="nav-header">INFORMACION</li>
             <li className="nav-item">
               <a href="#" className="nav-link">
@@ -123,13 +135,13 @@ export default function Aside() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="pages/mailbox/compose.html" className="nav-link">
+                  <a href="#" className="nav-link">
                     <i className="far fa-circle nav-icon" />
                     <p>Compose</p>
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="pages/mailbox/read-mail.html" className="nav-link">
+                  <a href="#" className="nav-link">
                     <i className="far fa-circle nav-icon" />
                     <p>Read</p>
                   </a>
